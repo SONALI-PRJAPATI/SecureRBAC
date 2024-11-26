@@ -1,0 +1,30 @@
+create folder Auth and 
+install 
+-nodemon
+-express
+ and run npm init
+ then firstly we export express
+and create PORT-4000
+ and then server is create 
+ and then we create env file so we install a package npm i dotenv
+ and we use this because read the file 
+ and then we create Auth folder for Authentication, Authorization 
+ and we create authroutes for register and login process
+ so we create register route 
+ and we create controller folder which is used to control error
+ and create models folder for users 
+ to use mongoose for database connection  so then we install package mongoose 
+ and then we create database connection
+ and we create userschema in db.js
+ and then pass a detail in auth/ controller in username, email,password then user send the detail 
+ and this data receive in json so we see a data to use app.use() func 
+ then we check user are exist or not so we create user model
+ then encrypt password so we install bcryptjs
+ and then we create login route and setup login if user register so user easily login if not so move to the register 1st
+ and then install jwt means jsonwebtoken witch is used for secure transmission of information between two parties using the json
+ so we create a secrete key in .env file
+ and the user login so we store in cookie parser so we install package cookie parser
+ and then we create logout 
+ and we create admin session basically admin see all users
+ and we create middleware
+ then we create delete 
