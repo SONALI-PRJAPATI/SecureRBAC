@@ -44,15 +44,6 @@ npm run dev
  -JWTs are used for stateless authentication and include role information for RBAC.
  -Middleware is used to protect sensitive routes and enforce role-based permissions.
 
-## 🔑 API Endpoints
-Authentication Routes
-Method        	Endpoint	              Description	Role Access
-POST	      /api/auth/register	       Register a new user	Public
-POST	      /api/auth/login	           Authenticate a user	Public
-Protected Routes
-Method	        Endpoint	              Description	Role Access
-GET	            /admin/getallusers	            Fetch all users (admin only)	Admin
-GET	            /admin/deleteuser                delete user profile	User, Admin
 
 ## 📂 Project Structure**
 ```plaintext
