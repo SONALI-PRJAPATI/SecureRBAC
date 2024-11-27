@@ -1,1 +1,4 @@
-exclude:\n  - node_modules
+
+exclude:
+  - node_modules
+  - Auth/node_modules
